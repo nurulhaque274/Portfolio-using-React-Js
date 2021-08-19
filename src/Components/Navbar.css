@@ -1,0 +1,37 @@
+:root{
+    --primary-white:white;
+    --primary-orange:rgb(231, 155, 14);
+    --primary-dark:rgba(255,255, 255,0);
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+.navbar-nav li {
+    margin-left: 20px;
+}
+.navbar-nav > li > a{
+    font-size: 20px;
+    border-top: 2px solid var(--primary-dark);
+}
+.navbar-nav > li > a:hover{
+    border-top: 2px solid var(--primary-orange);
+    width: fit-content;
+}
+.navbar-nav > li > a.active , .navbar-nav > li > a:focus{
+    border-top: 2px solid var(--primary-orange);
+}
+#anc{
+    color: var(--primary-white);
+}
+
+#logo{
+    height: 70px;
+    width: 200px;
+}
+#navbaricon{
+    color: var(--primary-white);
+    font-size: 40px;
+    border: none;
+}
+
